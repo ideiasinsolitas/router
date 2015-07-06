@@ -1,0 +1,62 @@
+[
+	{
+		"name": "search",
+		"pattern": "/(\\w+)/(search)/([^/]+)",
+		"vars": ["controller", "action", "query"]
+	},
+	{
+		"name": "welcome",
+		"pattern": "/(\\w+)/(hello)/(\\w+)",
+		"vars": ["controller", "action", "name"]
+	},
+	{
+		"name": "home",
+		"pattern": "/",
+		"vars": []
+	},
+	{
+		"name": "dashboard",
+		"pattern": "/(admin)",
+		"vars": ["controller"]
+	},
+	{
+		"name": "register",
+		"pattern": "/(user)/(register)",
+		"vars": ["controller", "action"]
+	},
+	{
+		"name": "index",
+		"pattern": "/(\\w+)",
+		"vars": ["controller"]
+	},
+	{
+		"name": "create",
+		"pattern": "/(\\w+)/(\\d+)/(create)",
+		"vars": ["controller", "id", "action"]
+	},
+	{
+		"name": "read",
+		"pattern": "/(\\w+)/(\\d+)/(read)",
+		"vars": ["controller", "id", "action"]
+	},
+	{
+		"name": "update",
+		"pattern": "/(\\w+)/(\\d+)/(update)",
+		"vars": ["controller", "id", "action"]
+	},
+	{
+		"name": "delete",
+		"pattern": "/(\\w+)/(\\d+)/(delete)",
+		"vars": ["controller", "id", "action"]
+	},
+	{
+		"name": "edit",
+		"pattern": "/(\\w+)/(\\d+)/(edit)",
+		"vars": ["controller", "id", "action"]
+	},
+	{
+		"name": "index.user",
+		"pattern": "/(\\w+)/(user)/(\\d+)",
+		"vars": ["controller", "user", "id"]
+	}
+]

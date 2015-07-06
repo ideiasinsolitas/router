@@ -1,0 +1,6 @@
+{
+	"app.name" : "Deck Router Example",
+	"packages" : {
+		"welcome" : "Example\\WelcomeController"
+	}
+}
